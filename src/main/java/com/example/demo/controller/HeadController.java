@@ -18,7 +18,7 @@ public class HeadController {
 
     @RequestMapping("/about")
     public String about() {
-        return "about";
+        return ABOUT;
     }
 
 

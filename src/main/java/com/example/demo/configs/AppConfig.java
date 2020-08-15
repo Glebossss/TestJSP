@@ -49,6 +49,7 @@ public class AppConfig {
         return simpleMailMessage;
     }
 
+
     @Bean
     public CommandLineRunner demo() {
         return new CommandLineRunner() {
